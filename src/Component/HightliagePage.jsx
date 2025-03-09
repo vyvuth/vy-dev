@@ -18,7 +18,7 @@ function HightliagePage() {
       <div className=" lg:flex lg:flex-wrap lg:justify-between md:flex md:flex-wrap-reverse md:justify-between ">
         {/* card1 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img1.png"
@@ -32,7 +32,7 @@ function HightliagePage() {
         </div>
         {/* card2 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className=" h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className=" h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img2.png"
@@ -46,7 +46,7 @@ function HightliagePage() {
         </div>
         {/* card3 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img3.png"
@@ -60,7 +60,7 @@ function HightliagePage() {
         </div>
         {/* card4 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img4.png"
@@ -74,7 +74,7 @@ function HightliagePage() {
         </div>
         {/* card5 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img5.png"
@@ -88,7 +88,7 @@ function HightliagePage() {
         </div>
         {/* card6 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img6.png"
@@ -102,7 +102,7 @@ function HightliagePage() {
         </div>
         {/* card7 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img8.png"
@@ -116,7 +116,7 @@ function HightliagePage() {
         </div>
         {/* card8 */}
         <div className=" lg:w-[32%] md:hidden lg:block h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img9.png"
@@ -130,7 +130,7 @@ function HightliagePage() {
         </div>
         {/* card9 */}
         <div className=" lg:w-[32%] md:w-[48%] h-[20%] border border-purple-800  p-[5px] mt-10 rounded overflow-hidden">
-          <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
+          <div className="h-96 lg:hover:bg-rose-700 lg:hover:rounded lg:hover:transition-all lg:hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
               src="img7.png"

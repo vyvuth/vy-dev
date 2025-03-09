@@ -23,7 +23,7 @@ function BasicPage() {
         <div className=" lg:flex lg:flex-wrap lg:justify-between md:flex md:w-full md:justify-between">
           {/* card1 */}
           <div className=" lg:w-[49%] md:w-[48%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
-            <div className=" w-full h-72 hover:p-[15px] transition-all hover:bg-rose-300 hover:text-white">
+            <div className=" w-full h-72 lg:hover:p-[15px] lg:transition-all lg:hover:bg-rose-300 lg:hover:text-white">
               <img
                 src="c.png"
                 alt="404"
@@ -49,7 +49,7 @@ function BasicPage() {
           </div>
           {/* card2 */}
           <div className=" lg:w-[49%] md:w-[48%] md:h-[500px] lg:h-[30%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
-            <div className=" w-full h-72 hover:p-[15px] transition-all hover:bg-rose-300 hover:text-white">
+            <div className=" w-full h-72 lg:hover:p-[15px] lg:transition-all lg:hover:bg-rose-300 lg:hover:text-white">
               <img
                 src="c++.png"
                 alt="404"
