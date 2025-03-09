@@ -21,7 +21,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img1.png"
+              src="img1.png"
               alt=""
             />
           </div>
@@ -35,7 +35,7 @@ function HightliagePage() {
           <div className=" h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img2.png"
+              src="img2.png"
               alt=""
             />
           </div>
@@ -49,7 +49,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img3.png"
+              src="img3.png"
               alt=""
             />
           </div>
@@ -63,7 +63,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img4.png"
+              src="img4.png"
               alt=""
             />
           </div>
@@ -77,7 +77,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img5.png"
+              src="img5.png"
               alt=""
             />
           </div>
@@ -91,7 +91,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img6.png"
+              src="img6.png"
               alt=""
             />
           </div>
@@ -105,7 +105,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img8.png"
+              src="img8.png"
               alt=""
             />
           </div>
@@ -119,7 +119,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img9.png"
+              src="img9.png"
               alt=""
             />
           </div>
@@ -133,7 +133,7 @@ function HightliagePage() {
           <div className="h-96 hover:bg-rose-700 hover:rounded hover:transition-all hover:p-[15px]">
             <img
               className=" w-full h-full object-cover rounded"
-              src="/public/images/img7.png"
+              src="img7.png"
               alt=""
             />
           </div>
