@@ -8,3 +8,4 @@ const AppStore = createContext();
 export default function StoreStorage({ children }) {
   return <AppStore.Provider value={{}}>{children}</AppStore.Provider>;
 }
+export { AppStore };

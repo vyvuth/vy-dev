@@ -4,6 +4,8 @@ import FooterPage from "./Footer/FooterPage";
 import SpeechDeveloper from "./Component/SpeechDeveloper";
 import ApplicationUI from "./Component/ApplicationUI";
 import StoreStorage from "./Store/StoreStorage";
+import HightliagePage from "./Component/HightliagePage";
+import BasicPage from "./Component/BasicPage";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <main>
           <SpeechDeveloper />
           <ApplicationUI />
+          <HightliagePage />
+          <BasicPage />
         </main>
         <footer>
           <FooterPage />

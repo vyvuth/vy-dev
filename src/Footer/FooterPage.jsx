@@ -3,7 +3,7 @@ import { FaFacebook, FaTelegram, FaTiktok } from "react-icons/fa";
 
 function FooterPage() {
   return (
-    <div className=" w-full h-[25%] p-[3%] bg-gray-700">
+    <div className=" w-full h-[25%] p-[3%] bg-gray-700 mt-14">
       <div className=" flex justify-between align-items-center font-serif">
         <div className=" text-white text-start text-xl">
           <p className=" my-5 ">Tel:+85593200503</p>
