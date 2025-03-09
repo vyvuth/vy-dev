@@ -14,17 +14,17 @@ function SpeechDeveloper() {
   return (
     <>
       <h1
-        className=" text-3xl capitalize font-serif mt-52 text-center
-        font-semibold text-rose-700 animate-bounce "
+        className=" lg:text-3xl capitalize lg:font-serif lg:mt-52 lg:text-center
+        lg:font-semibold text-rose-700 animate-bounce mt-[25px] p-[5px] text-center text-x md:text-xl "
       >
         {" "}
         welcome to developer speach of motivation catch up for programming!👨‍💻
       </h1>
       <div
-        data-aos="zoom-in-up"
-        className=" flex justify-between p-14 space-x-[20px] my-5"
+        data-aos="fade-up"
+        className=" lg:flex lg:justify-between lg:p-14 lg:space-x-[20px] lg:my-5 p-[15px] my-5"
       >
-        <div className=" font-serif font-light">
+        <div className=" lg:font-serif font-light my-3 md:text-xl">
           <h1>"Code Your Dreams into Reality"</h1>
           <p>
             Hello, VY developers! Every great innovation, every powerful app,
@@ -46,7 +46,7 @@ function SpeechDeveloper() {
             And most importantly—keep coding! 🚀💻🔥
           </p>
         </div>
-        <div className=" font-serif">
+        <div className=" lg:font-serif lg:my-0 my-14 md:text-xl">
           <h1>"Code ក្តីស្រមៃរបស់អ្នកឱ្យក្លាយជាការពិត"</h1>
           <p>
             សួស្តីអ្នកអភិវឌ្ឍន៍! រាល់ការច្នៃប្រឌិតដ៏អស្ចារ្យ

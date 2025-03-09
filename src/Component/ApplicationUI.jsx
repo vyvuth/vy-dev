@@ -12,14 +12,17 @@ function ApplicationUI() {
   }, []);
   return (
     <>
-      <div data-aos="zoom-in-down">
-        <h3 className=" text-xl capitalize font-serif font-semibold hover:underline mx-8 hover:text-2xl transition-opacity opacity-50 hover:opacity-100 text-purple-500 hover:text-black">
+      <div data-aos="fade-down">
+        <h3
+          className=" lg:text-xl capitalize lg:font-serif lg:font-semibold lg:hover:underline lg:mx-8 lg:hover:text-2xl lg:transition-opacity opacity-50 lg:hover:opacity-100 text-purple-500 hover:text-black 
+        lg:text-left text-center text-2xl font-serif md:text-5xl"
+        >
           lesson and skill development
         </h3>
         {/* card */}
-        <div className="p-[50px] w-full flex flex-wrap gap-5 justify-between">
+        <div className="lg:p-[50px] lg:w-full lg:flex lg:flex-wrap lg:gap-5 lg:justify-between p-4 flex flex-wrap gap-3 md:flex md:gap-4 md:justify-between md:w-full">
           {/* card1 */}
-          <div className=" w-[30%] h-[25%] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[395px] w-full lg:h-[25%] h-auto p-5 rounded border border-rose-500">
             <div className=" w-full h-44 ">
               <img
                 width={100}
@@ -45,7 +48,7 @@ function ApplicationUI() {
             </span>
           </div>
           {/* card2 */}
-          <div className=" w-[30%] h-[25%] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[395px] w-full lg:h-[25%] h-[25%] p-5 rounded border border-rose-500">
             <div className=" w-full h-40 ">
               <img
                 width={100}
@@ -72,7 +75,7 @@ function ApplicationUI() {
             </span>
           </div>
           {/* card3 */}
-          <div className=" w-[30%] h-[25%] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[430px] w-full lg:h-[25%] h-[25%] p-5 rounded border border-rose-500">
             <div className=" w-full h-40 ">
               <img
                 width={100}
@@ -99,7 +102,7 @@ function ApplicationUI() {
             </span>
           </div>
           {/* card4 */}
-          <div className=" w-[30%] h-[464px] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[430px] w-full lg:h-[25%] h-[464px] p-5 rounded border border-rose-500">
             <div className=" w-full h-40 ">
               <img
                 width={100}
@@ -128,7 +131,7 @@ function ApplicationUI() {
             </span>
           </div>
           {/* card5 */}
-          <div className=" w-[30%] h-[464px] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[435px] w-full lg:h-[464px] h-[464px] p-5 rounded border border-rose-500">
             <div className=" w-full h-44 ">
               <img
                 width={100}
@@ -156,7 +159,7 @@ function ApplicationUI() {
             </span>
           </div>
           {/* card6 */}
-          <div className=" w-[30%] h-[25%] p-5 rounded border border-rose-500">
+          <div className=" lg:w-[30%] md:w-[48%] md:h-[435px] w-full lg:h-[25%] h-[25%] p-5 rounded border border-rose-500">
             <div className=" w-full h-40 ">
               <img
                 width={100}

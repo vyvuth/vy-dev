@@ -1,16 +1,28 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function BasicPage() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: false,
+      mirror: "false",
+    });
+  }, []);
   return (
     <>
-      <div className=" my-10 p-[2%]">
-        <h1 className=" text-3xl text-center my-3 capitalize font-semibold font-serif text-rose-500 decoration-slice">
+      <div data-aos="fade-left" className=" my-10 p-[2%]">
+        <h1
+          className=" lg:text-3xl lg:text-center lg:my-3 capitalize lg:font-semibold lg:font-serif text-rose-500 decoration-slice *:
+        text-xl text-center md:text-4xl"
+        >
           Basic programming good for beginner 👇
         </h1>
         {/* card */}
-        <div className=" flex flex-wrap justify-between">
+        <div className=" lg:flex lg:flex-wrap lg:justify-between md:flex md:w-full md:justify-between">
           {/* card1 */}
-          <div className=" w-[49%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
+          <div className=" lg:w-[49%] md:w-[48%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
             <div className=" w-full h-72 hover:p-[15px] transition-all hover:bg-rose-300 hover:text-white">
               <img
                 src="c.png"
@@ -36,7 +48,7 @@ function BasicPage() {
             </div>
           </div>
           {/* card2 */}
-          <div className=" w-[49%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
+          <div className=" lg:w-[49%] md:w-[48%] md:h-[500px] lg:h-[30%] h-[30%] border border-green-700  rounded my-5 overflow-hidden  ">
             <div className=" w-full h-72 hover:p-[15px] transition-all hover:bg-rose-300 hover:text-white">
               <img
                 src="c++.png"
