@@ -10,7 +10,7 @@ import BasicPage from "./Component/BasicPage";
 function App() {
   return (
     <StoreStorage>
-      <div className="  overflow-hidden">
+      <div className="overflow-hidden">
         <header>
           <HeaderPage />
         </header>
