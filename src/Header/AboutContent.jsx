@@ -7,7 +7,7 @@ import ButtomBar from "../ButtomBar/ButtomBar";
 function AboutContent() {
   return (
     <>
-      <div className="animate__animated animate__bounceInRight">
+      <div className="animate__animated animate__bounceInRight overflow-hidden">
         <nav className="lg:block hidden lg:mt-6 md:block  ">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10

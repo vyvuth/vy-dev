@@ -5,8 +5,8 @@ import FooterPage from "../Footer/FooterPage";
 function ContactUs() {
   return (
     <>
-      <div className="animate__animated animate__fadeInLeftBig">
-        <nav className="lg:block hidden lg:mt-6 md:block  ">
+      <div className="animate__animated animate__fadeInLeftBig overflow-hidden">
+        <nav className="lg:block hidden lg:mt-6 md:block">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
         md:text-2xl "
