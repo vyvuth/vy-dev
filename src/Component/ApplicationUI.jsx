@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 function ApplicationUI() {
   useEffect(() => {
     AOS.init({
@@ -40,9 +41,16 @@ function ApplicationUI() {
               pages. It is used to structure and display content on the web.
             </p>
             <hr />
-            <p className=" mt-3 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+            <p className="mt-3 capitalize font-serif font-semibold text-orange-400">
+              Free Course -
+              <Link
+                to="/HTML"
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
+
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER
             </span>
@@ -68,7 +76,13 @@ function ApplicationUI() {
             </p>
             <hr />
             <p className=" mt-2 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+              free course -{" "}
+              <Link
+                to="/CSS"
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER
@@ -95,7 +109,13 @@ function ApplicationUI() {
             </p>
             <hr />
             <p className=" mt-2 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+              free course -{" "}
+              <Link
+                to="/js"
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER

@@ -6,6 +6,7 @@ import ApplicationUI from "./Component/ApplicationUI";
 import StoreStorage from "./Store/StoreStorage";
 import HightliagePage from "./Component/HightliagePage";
 import BasicPage from "./Component/BasicPage";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <ApplicationUI />
           <HightliagePage />
           <BasicPage />
+          <Outlet />
         </main>
         <footer>
           <FooterPage />

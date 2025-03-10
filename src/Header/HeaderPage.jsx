@@ -2,6 +2,7 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import "animate.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
+import { Link } from "react-router-dom";
 
 function HeaderPage() {
   return (
@@ -12,15 +13,24 @@ function HeaderPage() {
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
         md:text-2xl "
           >
-            <li className="hover:text-red-500 hover:underline transition-all duration-200 animate-pulse">
+            <Link
+              to="/"
+              className="hover:text-red-500 hover:underline transition-all duration-200 animate-pulse"
+            >
               Home
-            </li>
-            <li className="hover:text-green-700 hover:underline transition-all duration-200 animate-pulse">
+            </Link>
+            <Link
+              to="/content"
+              className="hover:text-green-700 hover:underline transition-all duration-200 animate-pulse"
+            >
               About Content
-            </li>
-            <li className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse">
+            </Link>
+            <Link
+              to="us"
+              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
+            >
               Contact Us
-            </li>
+            </Link>
           </ul>
         </nav>
         <div className="lg:flex lg:justify-center lg:p-4 lg:my-6 lg:mt-32">
