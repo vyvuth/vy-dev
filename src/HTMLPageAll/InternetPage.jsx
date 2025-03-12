@@ -1,12 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import FooterPage from "../Footer/FooterPage";
+import "../App.css";
 import CreditPage from "../Credit/CreditPage";
-function HTMLPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+function InternetPage() {
   return (
     <>
       <div className=" overflow-hidden">
@@ -35,7 +33,7 @@ function HTMLPage() {
             </Link>
           </ul>
         </nav>
-        <div className="w-full h-full p-[20px] flex justify-between">
+        <div className=" flex justify-between">
           <div className=" w-[39%] h-full border-r-2 rounded py-[15px]">
             <h1 className=" capitalize font-serif font-semibold text-center text-2xl">
               content page
@@ -117,44 +115,32 @@ function HTMLPage() {
             </div>
           </div>
           <div className=" w-[59%] h-full p-[15px]">
-            <h1 className=" hanuman capitalize text-x text-center font-serif py-2">
-              សម្រាប់បងប្អូនចង់ដើរលើផ្លូវ{""} web development{""}{" "}
-              ពេញតែម្ដងបងប្អូនត្រូវដើរ៣ជំហានធំៗ៖{" "}
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ដូចម្ដេចទៅដែលហៅថា internet?
             </h1>
             <p className=" hanuman capitalize py-2 pl-2">
-              ១.{""} web frontend ឬ web design frontend
-              ថ្នាក់នេះបងប្អូននិងរៀនពីការរចនា000 website កម្រិតដំបូង ឬ
-              កម្រិតអត់ចេះអីសោះ ដែលមាន HTML, CSS, Bootstrap, Javascript, Jquery
-              និងរៀនធ្វើ project ផ្សេងៗ
+              Internet គឺជាបណ្តាញនៃការតភ្ជាប់ទំនាក់ទំនងពី Node មួយទៅកាន់ Nodes
+              មួយទៀតពាសពេញពិភពលោក។ នៅក្នុងការតភ្ជាប់ Network គេអាចបែងចែកជា
+              ៣ប្រភេទ ធំៗ ដូចជា៖
             </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              ២. Web Backend ឬ Web Detabase មកដល់ពេលនេះរៀនពីការ Store
-              ទុកទិន្នន័យ លើ File និង Database ពោលគឺរៀនពី ការធ្វើ Page Admin និង
-              ការផ្ទុកទិន្នន័យ ឬ Filter ឬ Query ទិន្នន័យ មករៀបចំជា Contents
-              ផ្សេងៗ បង្ហាញខាង Frontend ឬ គ្រប់គ្រង់ ឬ
-              រៀបចំទិន្នន័យដាក់ដោយផ្នែកៗ ជាដើម
+            <p className=" hanuman capitalize py-2 pl-10">
+              1. LAN(Local Area Network): បណ្តាញដែរតភ្ជាប់មានលក្ខណះជិតៗ គ្នា ឬ
+              អាចក្នុងបន្ទប់, អាគារតូចៗ ជាដើម ។
             </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              ៣. Web Framework សំដៅលើ Framework ឬ Library ផ្សេងៗ ដែលត្រូវ embed
-              ជាមួយនិង Website បន្ថែមទៀតដើម្បីអោយ Website កាន់តែទាក់ទាញ និង
-              Standard ឡើង ។ រឿង Web framework រាល់ថ្ងៃនេះបានចែកជាពីររឿងគឺ Web
-              Framework ខាង Frontend និង Web Framework ខាង backend។
+            <p className=" hanuman capitalize py-2 pl-10">
+              2. MAN(Metropolitan Area Network): បណ្តាញនៃការតភ្ជាប់លក្ខណះ
+              ប្រហាក់ប្រហែលនិង LAN ដែរតែទំហំនៃការតភ្ជាប់មានលក្ខណះធំជាង
+              អាចទំហំប៉ុនទីក្រុងធំមួយ។
+            </p>
+            <p className=" hanuman capitalize py-2 pl-10">
+              3. WAN(Wide Area Network): បណ្តាញនៃការតភ្ជាប់មានលក្ខណះ
+              ទ្រង់ទ្រាយធំអាចពេញពិភកលោកទាំងមូលតែម្តង់។
             </p>
             <div className=" w-full h-full shadow p-[15px] my-3">
-              <div className=" overflow-scroll overflow-y-auto flex justify-between w-full space-x-2">
+              <div>
                 <img
                   className=" w-full h-full object-cover rounded"
-                  src="front.png"
-                  alt="404"
-                />
-                <img
-                  className=" w-full h-[335px] object-cover rounded"
-                  src="back.png"
-                  alt="404"
-                />
-                <img
-                  className=" w-full h-[339px] object-cover rounded"
-                  src="road.png"
+                  src="internet.png"
                   alt="404"
                 />
               </div>
@@ -169,4 +155,4 @@ function HTMLPage() {
   );
 }
 
-export default HTMLPage;
+export default InternetPage;

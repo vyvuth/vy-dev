@@ -1,12 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
-import FooterPage from "../Footer/FooterPage";
 import CreditPage from "../Credit/CreditPage";
-function HTMLPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+import FooterPage from "../Footer/FooterPage";
+function WebsitePage() {
   return (
     <>
       <div className=" overflow-hidden">
@@ -35,7 +33,7 @@ function HTMLPage() {
             </Link>
           </ul>
         </nav>
-        <div className="w-full h-full p-[20px] flex justify-between">
+        <div className=" flex justify-between">
           <div className=" w-[39%] h-full border-r-2 rounded py-[15px]">
             <h1 className=" capitalize font-serif font-semibold text-center text-2xl">
               content page
@@ -117,44 +115,26 @@ function HTMLPage() {
             </div>
           </div>
           <div className=" w-[59%] h-full p-[15px]">
-            <h1 className=" hanuman capitalize text-x text-center font-serif py-2">
-              សម្រាប់បងប្អូនចង់ដើរលើផ្លូវ{""} web development{""}{" "}
-              ពេញតែម្ដងបងប្អូនត្រូវដើរ៣ជំហានធំៗ៖{" "}
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ដូចម្ដេចទៅដែលហៅថា website?
             </h1>
             <p className=" hanuman capitalize py-2 pl-2">
-              ១.{""} web frontend ឬ web design frontend
-              ថ្នាក់នេះបងប្អូននិងរៀនពីការរចនា000 website កម្រិតដំបូង ឬ
-              កម្រិតអត់ចេះអីសោះ ដែលមាន HTML, CSS, Bootstrap, Javascript, Jquery
-              និងរៀនធ្វើ project ផ្សេងៗ
-            </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              ២. Web Backend ឬ Web Detabase មកដល់ពេលនេះរៀនពីការ Store
-              ទុកទិន្នន័យ លើ File និង Database ពោលគឺរៀនពី ការធ្វើ Page Admin និង
-              ការផ្ទុកទិន្នន័យ ឬ Filter ឬ Query ទិន្នន័យ មករៀបចំជា Contents
-              ផ្សេងៗ បង្ហាញខាង Frontend ឬ គ្រប់គ្រង់ ឬ
-              រៀបចំទិន្នន័យដាក់ដោយផ្នែកៗ ជាដើម
-            </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              ៣. Web Framework សំដៅលើ Framework ឬ Library ផ្សេងៗ ដែលត្រូវ embed
-              ជាមួយនិង Website បន្ថែមទៀតដើម្បីអោយ Website កាន់តែទាក់ទាញ និង
-              Standard ឡើង ។ រឿង Web framework រាល់ថ្ងៃនេះបានចែកជាពីររឿងគឺ Web
-              Framework ខាង Frontend និង Web Framework ខាង backend។
+              Website គឺជាបណ្ដុំនៃគេហទំព័រដែលត្រូវបានគេយកទៅដាក់នៅលើ Internet
+              សំរាប់អោយគេអាចប្រើប្រាស់ពាសពេញពិភពលោកតាមរយះ ISP (Internet Service
+              Provider) មានដូចជា Facebook, Gmail, Google, Youtube,.....។
+              អ្នកអាចធ្វើការ ប្រើ ប្រាស់នូវ Websites បានតាមរយះការប្រើប្រាស់នូវ
+              URL Website ឬ Web Address ។
             </p>
             <div className=" w-full h-full shadow p-[15px] my-3">
-              <div className=" overflow-scroll overflow-y-auto flex justify-between w-full space-x-2">
+              <div className=" flex space-x-2 overflow-scroll overflow-y-scroll">
                 <img
                   className=" w-full h-full object-cover rounded"
-                  src="front.png"
+                  src="http.png"
                   alt="404"
                 />
                 <img
-                  className=" w-full h-[335px] object-cover rounded"
-                  src="back.png"
-                  alt="404"
-                />
-                <img
-                  className=" w-full h-[339px] object-cover rounded"
-                  src="road.png"
+                  className=" w-full h-[365px] object-cover rounded"
+                  src="website.png"
                   alt="404"
                 />
               </div>
@@ -162,11 +142,11 @@ function HTMLPage() {
           </div>
         </div>
       </div>
-      <CreditPage />
       <ButtomBar />
+      <CreditPage />
       <FooterPage />
     </>
   );
 }
 
-export default HTMLPage;
+export default WebsitePage;

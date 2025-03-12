@@ -8,6 +8,8 @@ import CSSPage from "./ComponentPage/CSSPage.jsx";
 import JAVASCRIPTPage from "./ComponentPage/JAVASCRIPTPage.jsx";
 import AboutContent from "./Header/AboutContent.jsx";
 import ContactUs from "./Header/ContactUs.jsx";
+import InternetPage from "./HTMLPageAll/InternetPage.jsx";
+import WebsitePage from "./HTMLPageAll/WebsitePage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,6 +21,9 @@ createRoot(document.getElementById("root")).render(
         <Route path="/HTML" element={<HTMLPage />} />
         <Route path="/CSS" element={<CSSPage />} />
         <Route path="/js" element={<JAVASCRIPTPage />} />
+        <Route path="/introduction" element={<HTMLPage />} />
+        <Route path="/internet" element={<InternetPage />} />
+        <Route path="/website" element={<WebsitePage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

@@ -3,7 +3,6 @@ import { FaSearch } from "react-icons/fa";
 import "animate.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import { Link, Outlet } from "react-router-dom";
-
 function HeaderPage() {
   useEffect(() => {
     window.scrollTo(0, 0);

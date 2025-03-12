@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../App.css";
 function SpeechDeveloper() {
   useEffect(() => {
     AOS.init({
@@ -46,7 +47,7 @@ function SpeechDeveloper() {
             And most importantly—keep coding! 🚀💻🔥
           </p>
         </div>
-        <div className=" lg:font-serif lg:my-0 my-14 md:text-xl">
+        <div className="hanuman lg:font-serif lg:my-0 my-14 md:text-xl">
           <h1>"Code ក្តីស្រមៃរបស់អ្នកឱ្យក្លាយជាការពិត"</h1>
           <p>
             សួស្តីអ្នកអភិវឌ្ឍន៍! រាល់ការច្នៃប្រឌិតដ៏អស្ចារ្យ
