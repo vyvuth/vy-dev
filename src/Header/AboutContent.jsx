@@ -1,13 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, Outlet } from "react-router-dom";
 import ApplicationUI from "../Component/ApplicationUI";
 import BasicPage from "../Component/BasicPage";
 import FooterPage from "../Footer/FooterPage";
 import ButtomBar from "../ButtomBar/ButtomBar";
 function AboutContent() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <div className="lg:animate__animated lg:animate__bounceInRight overflow-hidden">
+      <div className="animate__animated animate__bounceInRight overflow-hidden">
         <nav className="lg:block hidden lg:mt-6 md:block  ">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
@@ -37,6 +40,7 @@ function AboutContent() {
         <BasicPage />
         <FooterPage />
       </div>
+      <Outlet />
       <ButtomBar />
     </>
   );

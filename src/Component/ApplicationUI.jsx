@@ -11,11 +11,14 @@ function ApplicationUI() {
       mirror: "false",
     });
   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div data-aos="fade-down">
         <h3
-          className=" lg:text-xl capitalize lg:font-serif lg:font-semibold lg:hover:underline lg:mx-8 lg:hover:text-2xl lg:transition-opacity opacity-50 lg:hover:opacity-100 text-purple-500 hover:text-black 
+          className=" lg:text-xl capitalize lg:font-serif lg:font-semibold  lg:mx-8  opacity-50  text-purple-500 
         lg:text-left text-center text-2xl font-serif md:text-5xl"
         >
           lesson and skill development

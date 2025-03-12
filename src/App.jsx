@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeaderPage from "./Header/HeaderPage";
 import FooterPage from "./Footer/FooterPage";
 import SpeechDeveloper from "./Component/SpeechDeveloper";
@@ -9,6 +9,9 @@ import BasicPage from "./Component/BasicPage";
 import { Outlet } from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <StoreStorage>
       <div className="overflow-hidden">
@@ -20,7 +23,7 @@ function App() {
           <ApplicationUI />
           <HightliagePage />
           <BasicPage />
-          <Outlet />
+          <outlet />
         </main>
         <footer>
           <FooterPage />

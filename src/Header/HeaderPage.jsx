@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import "animate.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function HeaderPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <div className="animate__animated animate__fadeInTopLeft">
+      <div className=" animate__animated animate__fadeInTopLeft overflow-auto">
         <nav className="lg:block hidden lg:mt-6 md:block  ">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
@@ -69,6 +72,7 @@ function HeaderPage() {
         </div>
       </div>
       <ButtomBar />
+      <Outlet />
     </>
   );
 }
