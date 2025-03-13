@@ -10,6 +10,9 @@ import AboutContent from "./Header/AboutContent.jsx";
 import ContactUs from "./Header/ContactUs.jsx";
 import InternetPage from "./HTMLPageAll/InternetPage.jsx";
 import WebsitePage from "./HTMLPageAll/WebsitePage.jsx";
+import HostingPage from "./HTMLPageAll/HostingPage.jsx";
+import DomainPage from "./HTMLPageAll/DomainPage.jsx";
+import HTMLPages from "./HTMLPageAll/HTMLPages.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -24,6 +27,9 @@ createRoot(document.getElementById("root")).render(
         <Route path="/introduction" element={<HTMLPage />} />
         <Route path="/internet" element={<InternetPage />} />
         <Route path="/website" element={<WebsitePage />} />
+        <Route path="/hosting" element={<HostingPage />} />
+        <Route path="/domain" element={<DomainPage />} />
+        <Route path="/htmls" element={<HTMLPages />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

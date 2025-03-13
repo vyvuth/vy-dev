@@ -66,17 +66,26 @@ function HTMLPage() {
                   </Link>
                 </div>
                 <div className="pl-4">
-                  <Link className="capitalize text-xl font-serif hover:underline hover:text-blue-800">
+                  <Link
+                    to="/hosting"
+                    className="capitalize text-xl font-serif hover:underline hover:text-blue-800"
+                  >
                     1.3 What is the hosting?
                   </Link>
                 </div>
                 <div className="pl-4">
-                  <Link className="capitalize text-xl font-serif hover:underline hover:text-blue-800">
+                  <Link
+                    to="/domain"
+                    className="capitalize text-xl font-serif hover:underline hover:text-blue-800"
+                  >
                     1.4 What is the domain?
                   </Link>
                 </div>
                 <div className="pl-4">
-                  <Link className="capitalize text-xl font-serif hover:underline hover:text-blue-800">
+                  <Link
+                    to="/htmls"
+                    className="capitalize text-xl font-serif hover:underline hover:text-blue-800"
+                  >
                     1.5 What is the HTML?
                   </Link>
                 </div>
