@@ -4,14 +4,14 @@ import { FaFacebook } from "react-icons/fa";
 function CreditPage() {
   return (
     <div className=" w-full h-full p-[15px] my-5">
-      <h1 className=" capitalize text-2xl font-serif font-semibold text-center">
+      <h1 className=" capitalize lg:text-2xl md:text-2xl  font-serif font-semibold text-center">
         reference belong to:
       </h1>
-      <div className=" my-5">
+      <div className=" lg:my-5 md:my-5 ">
         <div className=" text-center">
-          <h1 className=" hanuman uppercase text-xl text-red-600">
+          <h1 className=" hanuman uppercase lg:text-xl md:text-xl text-red-600">
             លោកគ្រូសាស្រ្តាចារ្យៈ ហេង ភក្តិណា ជាស្ថាបនិករបស់{" "}
-            <span className=" font-extrabold text-blue-700 underline">
+            <span className=" lg:font-extrabold font-extrabold text-blue-700  underline">
               etect center
             </span>
           </h1>

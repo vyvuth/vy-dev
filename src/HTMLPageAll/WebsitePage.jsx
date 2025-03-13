@@ -33,9 +33,9 @@ function WebsitePage() {
             </Link>
           </ul>
         </nav>
-        <div className=" flex justify-between">
-          <div className=" w-[39%] h-full border-r-2 rounded py-[15px]">
-            <h1 className=" capitalize font-serif font-semibold text-center text-2xl">
+        <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
+          <div className=" lg:w-[39%] md:w-[39%] w-full lg:h-full md:h-full lg:border-r-2 md:border-r-2 lg:rounded md:rounded lg:py-[15px] md:py-[15px] lg:overflow-hidden md:overflow-hidden overflow-scroll overflow-y-scroll h-40">
+            <h1 className=" capitalize font-serif font-semibold lg:text-center md:text-center lg:text-2xl md:text-2xl my-3 lg:my-0 md:my-0">
               content page
             </h1>
             {/* Introduction of HTML */}
@@ -114,7 +114,7 @@ function WebsitePage() {
               </Link>
             </div>
           </div>
-          <div className=" w-[59%] h-full p-[15px]">
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
             <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
               ដូចម្ដេចទៅដែលហៅថា website?
             </h1>
@@ -133,7 +133,7 @@ function WebsitePage() {
                   alt="404"
                 />
                 <img
-                  className=" w-full h-[365px] object-cover rounded"
+                  className=" w-full lg:h-[365px] md:h-[365px] h-[185px] object-cover rounded"
                   src="website.png"
                   alt="404"
                 />

@@ -35,9 +35,9 @@ function HTMLPage() {
             </Link>
           </ul>
         </nav>
-        <div className="w-full h-full p-[20px] flex justify-between">
-          <div className=" w-[39%] h-full border-r-2 rounded py-[15px]">
-            <h1 className=" capitalize font-serif font-semibold text-center text-2xl">
+        <div className="w-full h-full lg:p-0 md:p-0 p-[20px] lg:flex lg:justify-between md:flex md:justify-between  ">
+          <div className=" lg:w-[39%] md:w-[39%] lg:h-full md:h-full lg:border-r-2 md:border-r-2 lg:rounded md:rounded lg:py-[15px] md:py-[15px] h-40 overflow-scroll overflow-y-scroll md:overflow-hidden lg:overflow-hidden ">
+            <h1 className=" capitalize font-serif font-semibold lg:text-center md:text-center lg:text-2xl md:text-2xl my-3 lg:my-0 md:my-0 ">
               content page
             </h1>
             {/* Introduction of HTML */}
@@ -116,7 +116,7 @@ function HTMLPage() {
               </Link>
             </div>
           </div>
-          <div className=" w-[59%] h-full p-[15px]">
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full lg:p-[15px]">
             <h1 className=" hanuman capitalize text-x text-center font-serif py-2">
               សម្រាប់បងប្អូនចង់ដើរលើផ្លូវ{""} web development{""}{" "}
               ពេញតែម្ដងបងប្អូនត្រូវដើរ៣ជំហានធំៗ៖{" "}
@@ -148,12 +148,12 @@ function HTMLPage() {
                   alt="404"
                 />
                 <img
-                  className=" w-full h-[335px] object-cover rounded"
+                  className=" w-full lg:h-[335px] md:h-[335px] h-[167px] object-cover rounded"
                   src="back.png"
                   alt="404"
                 />
                 <img
-                  className=" w-full h-[339px] object-cover rounded"
+                  className=" w-full lg:h-[339px] md:h-[339px] h-[167px] object-cover rounded"
                   src="road.png"
                   alt="404"
                 />

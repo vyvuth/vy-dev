@@ -33,9 +33,9 @@ function InternetPage() {
             </Link>
           </ul>
         </nav>
-        <div className=" flex justify-between">
-          <div className=" w-[39%] h-full border-r-2 rounded py-[15px]">
-            <h1 className=" capitalize font-serif font-semibold text-center text-2xl">
+        <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between">
+          <div className=" lg:w-[39%] md:w-[39%] md:h-full lg:h-full lg:border-r-2 md:border-r-2 lg:rounded lg:py-[15px] overflow-scroll overflow-x-scroll md:overflow-hidden lg:overflow-hidden w-full h-40">
+            <h1 className=" capitalize font-serif font-semibold lg:text-center lg:text-2xl md:text-center md:text-2xl  my-3 lg:my-0 md:my-0 ">
               content page
             </h1>
             {/* Introduction of HTML */}
@@ -80,7 +80,6 @@ function InternetPage() {
                 </div>
               </div>
             </div>
-
             <div className=" pl-5 my-5">
               <div className=" mx-2">
                 <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
@@ -114,7 +113,7 @@ function InternetPage() {
               </Link>
             </div>
           </div>
-          <div className=" w-[59%] h-full p-[15px]">
+          <div className=" lg:w-[59%] w-full lg:h-full p-[15px] md:w-[59%] md:h-full">
             <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
               ដូចម្ដេចទៅដែលហៅថា internet?
             </h1>
@@ -123,16 +122,16 @@ function InternetPage() {
               មួយទៀតពាសពេញពិភពលោក។ នៅក្នុងការតភ្ជាប់ Network គេអាចបែងចែកជា
               ៣ប្រភេទ ធំៗ ដូចជា៖
             </p>
-            <p className=" hanuman capitalize py-2 pl-10">
+            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4 ">
               1. LAN(Local Area Network): បណ្តាញដែរតភ្ជាប់មានលក្ខណះជិតៗ គ្នា ឬ
               អាចក្នុងបន្ទប់, អាគារតូចៗ ជាដើម ។
             </p>
-            <p className=" hanuman capitalize py-2 pl-10">
+            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4">
               2. MAN(Metropolitan Area Network): បណ្តាញនៃការតភ្ជាប់លក្ខណះ
               ប្រហាក់ប្រហែលនិង LAN ដែរតែទំហំនៃការតភ្ជាប់មានលក្ខណះធំជាង
               អាចទំហំប៉ុនទីក្រុងធំមួយ។
             </p>
-            <p className=" hanuman capitalize py-2 pl-10">
+            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4">
               3. WAN(Wide Area Network): បណ្តាញនៃការតភ្ជាប់មានលក្ខណះ
               ទ្រង់ទ្រាយធំអាចពេញពិភកលោកទាំងមូលតែម្តង់។
             </p>
