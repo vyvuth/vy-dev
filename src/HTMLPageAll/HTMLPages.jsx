@@ -155,6 +155,18 @@ function HTMLPages() {
             </div>
           </div>
         </div>
+        <div className=" lg:my-14 md:my-14">
+          <div className=" p-[15px]">
+            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+              ឧទាហរណ៍ទី1ៈ
+            </p>
+            <img
+              className=" w-full h-full object-cover rounded"
+              src="exhtml.png"
+              alt="404"
+            />
+          </div>
+        </div>
       </div>
       <ButtomBar />
       <CreditPage />

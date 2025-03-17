@@ -164,6 +164,38 @@ function ListPage() {
             </div>
           </div>
         </div>
+        <div className=" lg:my-14 md:my-14">
+          <div className=" p-[15px]">
+            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+              ឧទាហរណ៍ទី1ៈ
+            </p>
+            <img
+              className=" w-full h-full object-cover rounded"
+              src="list1.png"
+              alt="404"
+            />
+          </div>
+          <div className=" p-[15px]">
+            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+              ឧទាហរណ៍ទី2ៈ
+            </p>
+            <img
+              className=" w-full h-full object-cover rounded"
+              src="list2.png"
+              alt="404"
+            />
+          </div>
+          <div className=" p-[15px]">
+            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+              ឧទាហរណ៍ទី3ៈ
+            </p>
+            <img
+              className=" w-full h-full object-cover rounded"
+              src="list3.png"
+              alt="404"
+            />
+          </div>
+        </div>
       </div>
       <ButtomBar />
       <CreditPage />
