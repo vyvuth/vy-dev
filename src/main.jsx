@@ -13,6 +13,10 @@ import WebsitePage from "./HTMLPageAll/WebsitePage.jsx";
 import HostingPage from "./HTMLPageAll/HostingPage.jsx";
 import DomainPage from "./HTMLPageAll/DomainPage.jsx";
 import HTMLPages from "./HTMLPageAll/HTMLPages.jsx";
+import ListPage from "./HTMLPageAll/ListPage.jsx";
+import OrderlistPage from "./HTMLPageAll/OrderlistPage.jsx";
+import UnlistPage from "./HTMLPageAll/UnlistPage.jsx";
+import DefinPage from "./HTMLPageAll/DefinPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,6 +34,10 @@ createRoot(document.getElementById("root")).render(
         <Route path="/hosting" element={<HostingPage />} />
         <Route path="/domain" element={<DomainPage />} />
         <Route path="/htmls" element={<HTMLPages />} />
+        <Route path="/listHtml" element={<ListPage />} />
+        <Route path="/order" element={<OrderlistPage />} />
+        <Route path="/unlist" element={<UnlistPage />} />
+        <Route path="/dlist" element={<DefinPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

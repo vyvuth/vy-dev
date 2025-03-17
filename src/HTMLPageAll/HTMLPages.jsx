@@ -92,27 +92,39 @@ function HTMLPages() {
 
             <div className=" pl-5 my-5">
               <div className=" mx-2">
-                <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+                <Link
+                  to="/listHtml"
+                  className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+                >
                   2. list html
                 </Link>
               </div>
               <div className=" mx-2 pl-4 ">
-                <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+                <Link
+                  to="/listHtml"
+                  className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+                >
                   2.1 What is the list?
                 </Link>
               </div>
               <div className=" mx-2 pl-4">
-                <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+                <Link
+                  to="/order"
+                  className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+                >
                   2.2 What is the orderList?
                 </Link>
               </div>
-              <div className=" mx-2 pl-4">
+              <div to="/unlist" className=" mx-2 pl-4">
                 <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
-                  2.3 What is te underorderList?
+                  2.3 What is the undorderList?
                 </Link>
               </div>
               <div className=" mx-2 pl-4">
-                <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+                <Link
+                  to="/dlist"
+                  className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+                >
                   2.4 What is te definition List?
                 </Link>
               </div>

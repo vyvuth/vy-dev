@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ButtomBar from "../ButtomBar/ButtomBar";
-import FooterPage from "../Footer/FooterPage";
 import "../App.css";
+import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
-function InternetPage() {
+import FooterPage from "../Footer/FooterPage";
+function DefinPage() {
   return (
     <>
       <div className=" overflow-hidden">
@@ -33,9 +33,9 @@ function InternetPage() {
             </Link>
           </ul>
         </nav>
-        <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between">
-          <div className=" lg:w-[39%] md:w-[39%] md:h-full lg:h-full lg:border-r-2 md:border-r-2 lg:rounded lg:py-[15px] overflow-scroll overflow-x-scroll md:overflow-hidden lg:overflow-hidden w-full h-40">
-            <h1 className=" capitalize font-serif font-semibold lg:text-center lg:text-2xl md:text-center md:text-2xl  my-3 lg:my-0 md:my-0 ">
+        <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
+          <div className=" lg:w-[39%] md:w-[39%] w-full lg:h-full md:h-full lg:border-r-2 md:border-r-2 lg:rounded md:rounded lg:py-[15px] md:py-[15px] lg:overflow-hidden md:overflow-hidden overflow-scroll overflow-y-scroll h-40">
+            <h1 className=" capitalize font-serif font-semibold lg:text-center md:text-center lg:text-2xl md:text-2xl my-3 lg:my-0 md:my-0">
               content page
             </h1>
             {/* Introduction of HTML */}
@@ -89,6 +89,7 @@ function InternetPage() {
                 </div>
               </div>
             </div>
+
             <div className=" pl-5 my-5">
               <div className=" mx-2">
                 <Link
@@ -108,7 +109,7 @@ function InternetPage() {
               </div>
               <div className=" mx-2 pl-4">
                 <Link
-                  to="/order"
+                  to="/unlist"
                   className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
                 >
                   2.2 What is the orderList?
@@ -137,33 +138,21 @@ function InternetPage() {
               </Link>
             </div>
           </div>
-          <div className=" lg:w-[59%] w-full lg:h-full p-[15px] md:w-[59%] md:h-full">
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
             <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
-              ដូចម្ដេចទៅដែលហៅថា internet?
+              ដូចម្ដេចដែលហៅថា Definition List?
             </h1>
             <p className=" hanuman capitalize py-2 pl-2">
-              Internet គឺជាបណ្តាញនៃការតភ្ជាប់ទំនាក់ទំនងពី Node មួយទៅកាន់ Nodes
-              មួយទៀតពាសពេញពិភពលោក។ នៅក្នុងការតភ្ជាប់ Network គេអាចបែងចែកជា
-              ៣ប្រភេទ ធំៗ ដូចជា៖
+              Definition List គឺជាប្រភេទ List ដែលបង្ហាញទិន្នន័យមានលក្ខណះ ជា
+              Block មានន័យថាការបង្ហាញមកមានលក្ខណះជា Definition Title និង
+              definition description។
             </p>
-            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4 ">
-              1. LAN(Local Area Network): បណ្តាញដែរតភ្ជាប់មានលក្ខណះជិតៗ គ្នា ឬ
-              អាចក្នុងបន្ទប់, អាគារតូចៗ ជាដើម ។
-            </p>
-            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4">
-              2. MAN(Metropolitan Area Network): បណ្តាញនៃការតភ្ជាប់លក្ខណះ
-              ប្រហាក់ប្រហែលនិង LAN ដែរតែទំហំនៃការតភ្ជាប់មានលក្ខណះធំជាង
-              អាចទំហំប៉ុនទីក្រុងធំមួយ។
-            </p>
-            <p className=" hanuman capitalize py-2 lg:pl-10 md:pl-10 pl-4">
-              3. WAN(Wide Area Network): បណ្តាញនៃការតភ្ជាប់មានលក្ខណះ
-              ទ្រង់ទ្រាយធំអាចពេញពិភកលោកទាំងមូលតែម្តង់។
-            </p>
+
             <div className=" w-full h-full shadow p-[15px] my-3">
-              <div>
+              <div className=" flex space-x-2">
                 <img
                   className=" w-full h-full object-cover rounded"
-                  src="internet.png"
+                  src="dlist.png"
                   alt="404"
                 />
               </div>
@@ -171,11 +160,11 @@ function InternetPage() {
           </div>
         </div>
       </div>
-      <CreditPage />
       <ButtomBar />
+      <CreditPage />
       <FooterPage />
     </>
   );
 }
 
-export default InternetPage;
+export default DefinPage;
