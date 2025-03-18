@@ -4,14 +4,14 @@ import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function HTMLPages() {
+function ExercisePage() {
   return (
     <>
       <div className=" overflow-hidden">
         <nav className="lg:block hidden lg:mt-6 md:block  ">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
-        md:text-2xl "
+              md:text-2xl "
           >
             <Link
               to="/"
@@ -115,8 +115,11 @@ function HTMLPages() {
                   2.2 What is the orderList?
                 </Link>
               </div>
-              <div to="/unlist" className=" mx-2 pl-4">
-                <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+              <div className=" mx-2 pl-4">
+                <Link
+                  to="/unlist"
+                  className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+                >
                   2.3 What is the undorderList?
                 </Link>
               </div>
@@ -138,44 +141,62 @@ function HTMLPages() {
               </Link>
             </div>
           </div>
-          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
-            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
-              អ្វីទៅជា HTML?
-            </h1>
-            <p className=" hanuman capitalize py-2 pl-2">
-              HTML ឈរលើពាក្យថា Hyper Text Markup Language គឺជាភាសារ សំរាប់
-              បង្កើតនូវ Website ជាទំរង់ Web Static ដំណើរការខាងផ្នែក Client។ HTML
-              គេអាចប្រើ ប្រាស់ វាសម្រាប់ដាក់ Text, Video, Sound, Images...។
-            </p>
-            <div className=" w-full h-full shadow p-[15px] my-3">
-              <div className=" flex space-x-2">
-                <img
-                  className=" w-full h-full object-cover rounded"
-                  src="html.png"
-                  alt="404"
-                />
-              </div>
+          <div className=" lg:my-14 md:my-14">
+            <div className=" p-[15px]">
+              <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+                ឧទាហរណ៍ទី1:
+              </p>
+              <img
+                className=" w-full h-full object-cover rounded"
+                src="ex1.png"
+                alt="404"
+              />
+              <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
+                លទ្ធផលៈ
+              </p>
+              <img
+                className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded pl-[50px]"
+                src="ex1.1.png"
+                alt="404"
+              />
             </div>
           </div>
         </div>
-        <div className=" lg:my-14 md:my-14">
-          <div className=" p-[50px]">
-            <img
-              className=" w-full h-full object-cover rounded"
-              src="syn.png"
-              alt="404"
-            />
-          </div>
-          <div className=" p-[15px]">
-            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី1:
-            </p>
-            <img
-              className=" w-full h-full object-cover rounded"
-              src="exhtml.png"
-              alt="404"
-            />
-          </div>
+        <div className=" p-[15px]">
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+            ឧទាហរណ៍ទី2:
+          </p>
+          <img
+            className=" w-full h-full object-cover rounded"
+            src="ex2.png"
+            alt="404"
+          />
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
+            លទ្ធផល:
+          </p>
+          <img
+            className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded lg:pl-[50px] md:pl-[50px]"
+            src="ex2.2.png"
+            alt="404"
+          />
+        </div>
+        <div className=" p-[15px]">
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+            ឧទាហរណ៍ទី3:
+          </p>
+          <img
+            className=" w-full h-full object-cover rounded"
+            src="ex3.png"
+            alt="404"
+          />
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
+            លទ្ធផល:
+          </p>
+          <img
+            className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded pl-[50px]"
+            src="ex3.3.png"
+            alt="404"
+          />
         </div>
       </div>
       <ButtomBar />
@@ -185,4 +206,4 @@ function HTMLPages() {
   );
 }
 
-export default HTMLPages;
+export default ExercisePage;

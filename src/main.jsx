@@ -17,6 +17,7 @@ import ListPage from "./HTMLPageAll/ListPage.jsx";
 import OrderlistPage from "./HTMLPageAll/OrderlistPage.jsx";
 import UnlistPage from "./HTMLPageAll/UnlistPage.jsx";
 import DefinPage from "./HTMLPageAll/DefinPage.jsx";
+import ExercisePage from "./HTMLPageAll/ExercisePage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -38,6 +39,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/order" element={<OrderlistPage />} />
         <Route path="/unlist" element={<UnlistPage />} />
         <Route path="/dlist" element={<DefinPage />} />
+        <Route path="/ex" element={<ExercisePage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

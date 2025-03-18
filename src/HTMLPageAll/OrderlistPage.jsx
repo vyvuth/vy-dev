@@ -133,7 +133,10 @@ function OrderlistPage() {
               </div>
             </div>
             <div className=" mx-2  my-2">
-              <Link className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 ">
+              <Link
+                to="/ex"
+                className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
+              >
                 3. exercises
               </Link>
             </div>
