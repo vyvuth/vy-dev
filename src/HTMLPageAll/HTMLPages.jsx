@@ -166,6 +166,92 @@ function HTMLPages() {
               alt="404"
             />
           </div>
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px] m-auto">
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ដូចម្តេចទៅ ដែលហៅថា Attribute?
+            </h1>
+            <p className=" hanuman capitalize py-2 pl-2">
+              Attribute គឺជារបស់ដែលមានស្រាប់លក្នុង HTML ដែលគេប្រើប្រាស់សំរាប់
+              ជំនួយអោយ Tag អាចធ្វើអ្វីបន្ថែមទៀត។ Attribute មិនមានសម្រាប់គ្រប់
+              Tag នោះទេគឺវាសំ រាប់តែ Tag មួយចំនួនប៉ុណ្ណឹង។
+            </p>
+            <div className=" w-full h-full shadow p-[15px] my-3">
+              <div className=" flex space-x-2">
+                <img
+                  className=" w-full h-full object-cover rounded"
+                  src="ab.png"
+                  alt="404"
+                />
+              </div>
+            </div>
+          </div>
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px] m-auto">
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ការដាក់រូបភាពលើ Webpage
+            </h1>
+            <p className=" hanuman capitalize py-2 pl-2">
+              ដើម្បីយករូបភាពមកដាក់លើគេហទំព័រអ្នកត្រូវកែលំហរូបភាពទាំងទំហំ និង
+              សោភណ្ឌភាពរូបភាពអោយហើយដោយប្រើប្រាស់នូវ Tool Design ណាមួយដូចជា
+              Photoshop, Corel, Illustrator,...។
+              រូបភាពដែលដែលអាចដាក់បានគួរប្រើប្រាស់ជាប្រភេទ file ដូចជា *.jpg,
+              *.png, *.gif, *.bmp....។
+            </p>
+            <div className=" w-full h-full shadow p-[15px] my-3">
+              <div className=" flex space-x-2">
+                <img
+                  className=" w-full h-full object-cover rounded"
+                  src="img.png"
+                  alt="404"
+                />
+              </div>
+            </div>
+          </div>
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px] m-auto">
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ការទាញយកវីដេអូពី Youtube មកដាក់លើ Wensite របស់យើង
+            </h1>
+            <div className=" w-full h-full shadow p-[15px] my-3">
+              <div className=" flex space-x-2">
+                <img
+                  className=" w-full h-full object-cover rounded"
+                  src="vdo.png"
+                  alt="404"
+                />
+              </div>
+            </div>
+          </div>
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px] m-auto">
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ការទាញយកវីដេអូពី Sound មកដាក់លើ Wensite របស់យើង
+            </h1>
+            <div className=" w-full h-full shadow p-[15px] my-3">
+              <div className=" flex space-x-2">
+                <img
+                  className=" w-full h-full object-cover rounded"
+                  src="aio.png"
+                  alt="404"
+                />
+              </div>
+            </div>
+          </div>
+          <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px] m-auto">
+            <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
+              ការ Link ភ្ជាប់ Web Site
+            </h1>
+            <p className=" hanuman capitalize py-2 pl-2">
+              សំដៅលើការតភ្ជាប់គេហទំព័រពី page មួយទៅកាន់ page មួយទៀត
+              ឬពីចំនុចមួយទៅ ចំនុចមួយទៀតក្នុង Page ផ្សេងទៀត ។
+            </p>
+            <div className=" w-full h-full shadow p-[15px] my-3">
+              <div className=" flex space-x-2">
+                <img
+                  className=" w-full h-full object-cover rounded"
+                  src="link.png"
+                  alt="404"
+                />
+              </div>
+            </div>
+          </div>
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី1:
