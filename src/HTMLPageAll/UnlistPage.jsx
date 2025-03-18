@@ -163,7 +163,7 @@ function UnlistPage() {
         <div className=" lg:my-14 md:my-14">
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី1ៈ
+              ឧទាហរណ៍ទី1:
             </p>
             <img
               className=" w-full h-full object-cover rounded"
@@ -171,7 +171,7 @@ function UnlistPage() {
               alt="404"
             />
             <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
-              លទ្ធផលៈ
+              លទ្ធផល:
             </p>
             <img
               className=" w-[50%] h-full object-cover rounded pl-[50px]"
@@ -181,7 +181,7 @@ function UnlistPage() {
           </div>
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី2ៈ
+              ឧទាហរណ៍ទី2:
             </p>
             <img
               className=" w-full h-full object-cover rounded"
@@ -189,7 +189,7 @@ function UnlistPage() {
               alt="404"
             />
             <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
-              លទ្ធផលៈ
+              លទ្ធផល:
             </p>
             <img
               className=" w-[50%] h-full object-cover rounded pl-[50px]"
@@ -199,7 +199,7 @@ function UnlistPage() {
           </div>
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី3ៈ
+              ឧទាហរណ៍ទី3:
             </p>
             <img
               className=" w-full h-full object-cover rounded"
@@ -207,7 +207,7 @@ function UnlistPage() {
               alt="404"
             />
             <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
-              លទ្ធផលៈ
+              លទ្ធផល:
             </p>
             <img
               className=" w-[50%] h-full object-cover rounded pl-[50px]"

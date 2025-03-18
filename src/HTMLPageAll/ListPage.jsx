@@ -177,7 +177,7 @@ function ListPage() {
           </div>
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី2ៈ
+              ឧទាហរណ៍ទី1:
             </p>
             <img
               className=" w-full h-full object-cover rounded"
@@ -187,7 +187,7 @@ function ListPage() {
           </div>
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី3ៈ
+              ឧទាហរណ៍ទី2:
             </p>
             <img
               className=" w-full h-full object-cover rounded"

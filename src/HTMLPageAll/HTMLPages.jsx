@@ -158,7 +158,7 @@ function HTMLPages() {
         <div className=" lg:my-14 md:my-14">
           <div className=" p-[15px]">
             <p className=" pl-12 hanuman text-2xl font-bold my-3">
-              ឧទាហរណ៍ទី1ៈ
+              ឧទាហរណ៍ទី1:
             </p>
             <img
               className=" w-full h-full object-cover rounded"
