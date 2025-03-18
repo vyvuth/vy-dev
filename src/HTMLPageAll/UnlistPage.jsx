@@ -162,7 +162,7 @@ function UnlistPage() {
         </div>
         <div className=" lg:my-14 md:my-14">
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី1:
             </p>
             <img
@@ -170,17 +170,17 @@ function UnlistPage() {
               src="un1.png"
               alt="404"
             />
-            <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
               លទ្ធផល:
             </p>
             <img
-              className=" w-[50%] h-full object-cover rounded pl-[50px]"
+              className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded pl-[50px]"
               src="un1.1.png"
               alt="404"
             />
           </div>
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី2:
             </p>
             <img
@@ -188,17 +188,17 @@ function UnlistPage() {
               src="un2.png"
               alt="404"
             />
-            <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
               លទ្ធផល:
             </p>
             <img
-              className=" w-[50%] h-full object-cover rounded pl-[50px]"
+              className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded pl-[50px]"
               src="un2.2.png"
               alt="404"
             />
           </div>
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:ext-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី3:
             </p>
             <img
@@ -206,11 +206,11 @@ function UnlistPage() {
               src="un3.png"
               alt="404"
             />
-            <p className=" pl-12 hanuman text-2xl font-bold my-3 text-rose-700">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 text-rose-700">
               លទ្ធផល:
             </p>
             <img
-              className=" w-[50%] h-full object-cover rounded pl-[50px]"
+              className=" lg:w-[50%] md:w-[50%] w-full h-full object-cover rounded pl-[50px]"
               src="un3.3.png"
               alt="404"
             />

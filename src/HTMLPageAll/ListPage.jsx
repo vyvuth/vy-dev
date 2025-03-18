@@ -166,7 +166,7 @@ function ListPage() {
         </div>
         <div className=" lg:my-14 md:my-14">
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី1:
             </p>
             <img
@@ -176,7 +176,7 @@ function ListPage() {
             />
           </div>
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី2:
             </p>
             <img
@@ -186,7 +186,7 @@ function ListPage() {
             />
           </div>
           <div className=" p-[15px]">
-            <p className=" pl-12 hanuman text-2xl font-bold my-3">
+            <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
               ឧទាហរណ៍ទី3:
             </p>
             <img
