@@ -198,6 +198,34 @@ function ExercisePage() {
             alt="404"
           />
         </div>
+        <div className=" p-[15px]">
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 underline">
+            លំហាត់ទី១:
+          </p>
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+            ចូរសរសេរនូវកូដដែលអាចបង្ហាញនៅលើ Web-Browser ដោយប្រើនូវ Tag ដូចជា p,
+            b, i, និង u រួមទាំងដាក់វីដេអូក្នុង Wab-Page របស់យើង។
+          </p>
+        </div>
+        <div className=" p-[15px]">
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 underline">
+            លំហាត់ទី២:
+          </p>
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+            ចូរសរសេរនូវកូដដែលអាចបង្ហាញនៅលើ Web-Browser ដោយប្រើនូវ Tag ដូចជា
+            Strong,Mark, Sup,Sub, Center, Br និង Hr
+            រួមទាំងដាក់វីដេអូនិងសំឡេងក្នុង Wab-Page របស់យើង។
+          </p>
+        </div>
+        <div className=" p-[15px]">
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3 underline">
+            លំហាត់ទី៣:
+          </p>
+          <p className=" pl-12 hanuman lg:text-2xl md:text-2xl font-bold my-3">
+            ចូរអ្នកបង្កើតនូវ Website មួយដោយប្រើប្រាស់នូវភាសា HTML
+            ដែលបានសិក្សារួចមក។
+          </p>
+        </div>
       </div>
       <ButtomBar />
       <CreditPage />
