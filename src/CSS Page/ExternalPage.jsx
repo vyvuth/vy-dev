@@ -1,13 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function CSSPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+function ExternalPage() {
   return (
     <>
       <div className=" overflow-hidden">
@@ -63,7 +60,7 @@ function CSSPage() {
                     to="/inline"
                     className="capitalize text-xl font-serif hover:underline hover:text-blue-800"
                   >
-                    1.2 Inline style
+                    1.2 inline style
                   </Link>
                 </div>
                 <div className="pl-4">
@@ -92,7 +89,6 @@ function CSSPage() {
                 </div>
               </div>
             </div>
-
             <div className=" mx-2  my-2">
               <Link
                 to="/excss"
@@ -104,80 +100,36 @@ function CSSPage() {
           </div>
           <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
             <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
-              ដូចម្ដេចដែលហៅថា CSS?
+              ✓ ទំរង់ External Style
             </h1>
             <p className=" hanuman capitalize py-2 pl-2">
-              CSS ឈរលើពាក្យថា Cascading Style Sheet ដែលត្រូវបានគេ ប្រើ ប្រាស់
-              សំរាប់តុបតែងគេហទំព័រអោយមានភាពទាក់ទាញ និងស្រល់ស្អាត និង ទាក់ ទាញ
-              ពីសំណាក់អ្នកទស្សនាវា។
+              ខាងក្រោមគឺជាផលប្រយោជន៏ក្នុងការប្រើប្រាស់នូវ CSS Style សំរាប់
+              បង្កើត នូវ Website:
             </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              ដើម្បីសរសេរ Style sheet អ្នកអាចសរសេរបាន ២របៀប៖
+            <p className=" hanuman capitalize py-2 pl-8">
+              1. អាចបង្កើត ឬ កែច្នៃនូវ Layout អោយមានភាពទាក់ទាញនិងស្រល់ ស្អាត
+              តាមលក្ខណះផ្សេងៗរបស់វា
             </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              1.1. Internal Style sheet: ទំរង់ Style ដែលសរសេរជាមួយនិង file HTML
-              ពោលគឺអ្នកអាចសរសេរនៅចំលោះ header របស់ HTML
+            <p className=" hanuman capitalize py-2 pl-8">
+              2. អាចកែច្នៃនូវ Text ទៅតាមលក្ខណះផ្សេងរបស់អ្នកដូចជា ធ្វើ ស្រមោល,
+              កែលក្ខណះ និង ច្នៃវាអោយមានភាពទាក់ទាញ។
+            </p>
+            <p className=" hanuman capitalize py-2 pl-8">
+              3. អាចបង្កើតនូវ Menu តាមតំរូវការរបស់អ្នកដូចជា horizontal, Vertical
+              និង drop down Menu។ <br />{" "}
+              គេហទំព័រស្ទើរតែទាំងអស់ត្រូវបានប្រើប្រាស់ទំរង់ Style Sheet ដើម្បី
+              បង្កើតគេហទំព័រឡើង។
             </p>
 
             <div className=" w-full h-full shadow p-[15px] my-3">
               <div className=" flex space-x-2">
                 <img
                   className=" w-full h-full object-cover rounded"
-                  src="css1.png"
+                  src="externalStyle.png"
                   alt="404"
                 />
               </div>
             </div>
-          </div>
-        </div>
-        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
-          <p className=" hanuman capitalize py-2 pl-2">
-            12. External style sheet : គឺជាការសរសេរ Style ផ្តាច់ពី file រវាង
-            HTML និង CSS។ទំរង់នេះគេប្រើប្រាស់ក្នុងករណីដែល CSS style មានច្រើន
-            line ឬ គេមិនចង់អោយវានៅជាមួយនិង file html។
-          </p>
-          <div className=" w-full h-full shadow p-[15px] my-3">
-            <div className=" flex space-x-2">
-              <img
-                className=" w-full h-full object-cover rounded"
-                src="external.png"
-                alt="404"
-              />
-            </div>
-            <p className="underline py-2 pl-2 font-bold">Save file: * .css</p>
-          </div>
-          <div className=" w-full h-full shadow p-[15px] my-3">
-            <div className=" flex space-x-2 size-auto">
-              <img
-                className=" w-full h-full object-cover rounded"
-                src="external1.png"
-                alt="404"
-              />
-            </div>
-            <p className="underline py-2 pl-2 font-bold">Save file: * .html</p>
-          </div>
-          {/* divide css */}
-          <div className=" w-full h-full hanuman my-[20px]">
-            <p className=" hanuman text-2xl pl-10 font-semibold">
-              CSS ត្រូវបានគេចែកជា២ប្រភេទ:
-            </p>
-            <ol className=" pl-20 my-[20px]">
-              <li className=" my-1 capitalize font-semibold text-xl">
-                * ទម្រង់ inline style
-              </li>
-              <li className=" my-1 capitalize font-semibold text-xl">
-                * ទម្រង់ embed style(external style sheet)
-              </li>
-            </ol>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector style
-            </p>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector with ID style
-            </p>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector with Class style
-            </p>
           </div>
         </div>
       </div>
@@ -188,4 +140,4 @@ function CSSPage() {
   );
 }
 
-export default CSSPage;
+export default ExternalPage;

@@ -1,13 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function CSSPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+function EmbedPage() {
   return (
     <>
       <div className=" overflow-hidden">
@@ -63,7 +60,7 @@ function CSSPage() {
                     to="/inline"
                     className="capitalize text-xl font-serif hover:underline hover:text-blue-800"
                   >
-                    1.2 Inline style
+                    1.2 inline style
                   </Link>
                 </div>
                 <div className="pl-4">
@@ -98,86 +95,86 @@ function CSSPage() {
                 to="/excss"
                 className=" uppercase  text-xl font-serif hover:underline hover:text-blue-800 "
               >
-                2. exercises
+                3. exercises
               </Link>
             </div>
           </div>
           <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
             <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
-              ដូចម្ដេចដែលហៅថា CSS?
+              ✓ ទំរង់ embed style sheet
             </h1>
             <p className=" hanuman capitalize py-2 pl-2">
-              CSS ឈរលើពាក្យថា Cascading Style Sheet ដែលត្រូវបានគេ ប្រើ ប្រាស់
-              សំរាប់តុបតែងគេហទំព័រអោយមានភាពទាក់ទាញ និងស្រល់ស្អាត និង ទាក់ ទាញ
-              ពីសំណាក់អ្នកទស្សនាវា។
+              <span className=" text-rose-700 font-semibold">
+                Embed Style Sheet
+              </span>{" "}
+              គឺជាប្រភេទStyle Sheet ដែលគេអាចយក Tag HTML ណាមួយ មក បន្ថែម Style
+              Sheet ឬ គេអាចបង្កើត Sub Tag ចេញពី Tag ណាមួយក៏បានដែរ។ Style Sheet
+              ប្រភេទនេះគេអាចបង្កើតវាជាទំរង់ Internal Style Sheet ក៏ បាន ឬ
+              External Style Sheet ក៏បានដែរ។ ក្នុង Embed Style Sheet គេបែងចែកជា
+              ៣ប្រភេទ គឺ Selector, Selector ID, Selector with Class ។
             </p>
             <p className=" hanuman capitalize py-2 pl-2">
-              ដើម្បីសរសេរ Style sheet អ្នកអាចសរសេរបាន ២របៀប៖
-            </p>
-            <p className=" hanuman capitalize py-2 pl-2">
-              1.1. Internal Style sheet: ទំរង់ Style ដែលសរសេរជាមួយនិង file HTML
-              ពោលគឺអ្នកអាចសរសេរនៅចំលោះ header របស់ HTML
+              <span className=" text-rose-700 font-semibold">
+                selector style
+              </span>{" "}
+              គឺជាប្រភេទ Style Sheet ដែលគ្រាន់តែយក Tag HTML ណាមួយមក បន្ថែម
+              Property Sheet របស់ Css ជាការស្រេច។ Style Sheet ប្រភេទនេះ អ្នកអាច
+              សរសេរនៅចំន្លោះ Tag Style ជាការស្រេច។
             </p>
 
             <div className=" w-full h-full shadow p-[15px] my-3">
-              <div className=" flex space-x-2">
+              <div className=" flex space-x-2 ">
                 <img
                   className=" w-full h-full object-cover rounded"
-                  src="css1.png"
+                  src="embed.png"
                   alt="404"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
-          <p className=" hanuman capitalize py-2 pl-2">
-            12. External style sheet : គឺជាការសរសេរ Style ផ្តាច់ពី file រវាង
-            HTML និង CSS។ទំរង់នេះគេប្រើប្រាស់ក្នុងករណីដែល CSS style មានច្រើន
-            line ឬ គេមិនចង់អោយវានៅជាមួយនិង file html។
+        {/* Selector ID */}
+        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+          <p className=" hanuman capitalize py-2 pl-2 text-2xl">
+            <span className=" text-rose-700 font-semibold">
+              selector ID style
+            </span>{" "}
+            គឺជាប្រភេទ Selector ដែលគេគ្រាន់តែយក Tag របស់ HTML ណា មួយ មកបង្កើត
+            Sub Tag ឬ វាអាចបង្កើត Sub Tag ដោយខ្លួនឯងបាន ដោយ គ្រាន់
+            តែប្រើប្រាស់នូវសញ្ញាណ (#) ដាក់នៅពីមុខ Sub Tag ណាមួយក៏បាន។ ចំពោះ
+            ការហៅទៅប្រើប្រាស់គឺត្រូវ ហៅតាមរយះ Attribute (id) ។
           </p>
+
           <div className=" w-full h-full shadow p-[15px] my-3">
-            <div className=" flex space-x-2">
+            <div className=" flex space-x-2 ">
               <img
                 className=" w-full h-full object-cover rounded"
-                src="external.png"
+                src="id.png"
                 alt="404"
               />
             </div>
-            <p className="underline py-2 pl-2 font-bold">Save file: * .css</p>
           </div>
+        </div>
+        {/* Selector CLASS */}
+        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+          <p className=" hanuman capitalize py-2 pl-2 text-2xl">
+            <span className=" text-rose-700 font-semibold">
+              Selector With Class
+            </span>{" "}
+            គឺជាប្រភេទ Selector ដែលគេអាចបង្កើតបានស្រដៀងនិង Selector with ID
+            ដែរតែគ្រាន់តែវាបង្កើតឡើងដោយប្រើប្រាស់នូវសញ្ញាណ).) ជាការ ស្រេច ។
+            ដើម្បីអាចហៅទំរង់ Selector with class បានអ្នកអាចប្រើប្រាស់នូវ
+            Attribute Class។
+          </p>
+
           <div className=" w-full h-full shadow p-[15px] my-3">
-            <div className=" flex space-x-2 size-auto">
+            <div className=" flex space-x-2 ">
               <img
                 className=" w-full h-full object-cover rounded"
-                src="external1.png"
+                src="class.png"
                 alt="404"
               />
             </div>
-            <p className="underline py-2 pl-2 font-bold">Save file: * .html</p>
-          </div>
-          {/* divide css */}
-          <div className=" w-full h-full hanuman my-[20px]">
-            <p className=" hanuman text-2xl pl-10 font-semibold">
-              CSS ត្រូវបានគេចែកជា២ប្រភេទ:
-            </p>
-            <ol className=" pl-20 my-[20px]">
-              <li className=" my-1 capitalize font-semibold text-xl">
-                * ទម្រង់ inline style
-              </li>
-              <li className=" my-1 capitalize font-semibold text-xl">
-                * ទម្រង់ embed style(external style sheet)
-              </li>
-            </ol>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector style
-            </p>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector with ID style
-            </p>
-            <p className=" capitalize font-bold pl-[100px] text-rose-600 underline my-2">
-              + selector with Class style
-            </p>
           </div>
         </div>
       </div>
@@ -188,4 +185,4 @@ function CSSPage() {
   );
 }
 
-export default CSSPage;
+export default EmbedPage;

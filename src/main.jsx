@@ -18,6 +18,12 @@ import OrderlistPage from "./HTMLPageAll/OrderlistPage.jsx";
 import UnlistPage from "./HTMLPageAll/UnlistPage.jsx";
 import DefinPage from "./HTMLPageAll/DefinPage.jsx";
 import ExercisePage from "./HTMLPageAll/ExercisePage.jsx";
+import ExternalPage from "./CSS Page/ExternalPage.jsx";
+import InlinePage from "./CSS Page/InlinePage.jsx";
+import EmbedPage from "./CSS Page/EmbedPage.jsx";
+import OrganizeTextPage from "./CSS Page/OrganizeTextPage.jsx";
+import FormCssPage from "./CSS Page/FormCssPage.jsx";
+import CssExercisePage from "./CSS Page/CssExercisePage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -40,6 +46,12 @@ createRoot(document.getElementById("root")).render(
         <Route path="/unlist" element={<UnlistPage />} />
         <Route path="/dlist" element={<DefinPage />} />
         <Route path="/ex" element={<ExercisePage />} />
+        <Route path="/external" element={<ExternalPage />} />
+        <Route path="/inline" element={<InlinePage />} />
+        <Route path="/embed" element={<EmbedPage />} />
+        <Route path="/organize" element={<OrganizeTextPage />} />
+        <Route path="/formcss" element={<FormCssPage />} />
+        <Route path="/excss" element={<CssExercisePage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
