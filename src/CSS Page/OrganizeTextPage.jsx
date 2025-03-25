@@ -25,12 +25,6 @@ function OrganizeTextPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
@@ -120,7 +114,7 @@ function OrganizeTextPage() {
           </div>
         </div>
         {/* layout css */}
-        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
           <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
             របៀបបង្កើតនូវ Layout តាម CSS
           </h1>

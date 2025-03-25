@@ -27,12 +27,6 @@ function HTMLPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className="w-full h-full lg:p-0 md:p-0 p-[20px] lg:flex lg:justify-between md:flex md:justify-between  ">

@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
+import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function ContactUs() {
+function JqueryPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
-      <div className="animate__animated animate__fadeInLeftBig overflow-hidden">
-        <nav className="lg:block hidden lg:mt-6 md:block">
+      <div className=" overflow-hidden">
+        <nav className="lg:block hidden lg:mt-6 md:block  ">
           <ul
             className="lg:flex lg:justify-center lg:space-x-20 lg:my-4 lg:text-xl font-bold md:flex md:justify-center md:space-x-20 md:my-10
-        md:text-2xl "
+                md:text-2xl "
           >
             <Link
               to="/"
@@ -23,19 +28,21 @@ function ContactUs() {
             >
               About Content
             </Link>
-            <Link
-              to="/us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
-        <FooterPage />
+        <div className=" w-full h-full lg:p-[25px] my-[15px] ">
+          <img
+            src="lesson.png"
+            className=" lg:w-full lg:h-[500px] object-fit-cover rounded shadow "
+            alt="404"
+          />
+        </div>
       </div>
       <ButtomBar />
+      <CreditPage />
+      <FooterPage />
     </>
   );
 }
 
-export default ContactUs;
+export default JqueryPage;

@@ -28,12 +28,6 @@ function CSSPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">

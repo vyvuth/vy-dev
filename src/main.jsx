@@ -7,7 +7,6 @@ import HTMLPage from "./ComponentPage/HTMLPage.jsx";
 import CSSPage from "./ComponentPage/CSSPage.jsx";
 import JAVASCRIPTPage from "./ComponentPage/JAVASCRIPTPage.jsx";
 import AboutContent from "./Header/AboutContent.jsx";
-import ContactUs from "./Header/ContactUs.jsx";
 import InternetPage from "./HTMLPageAll/InternetPage.jsx";
 import WebsitePage from "./HTMLPageAll/WebsitePage.jsx";
 import HostingPage from "./HTMLPageAll/HostingPage.jsx";
@@ -24,6 +23,11 @@ import EmbedPage from "./CSS Page/EmbedPage.jsx";
 import OrganizeTextPage from "./CSS Page/OrganizeTextPage.jsx";
 import FormCssPage from "./CSS Page/FormCssPage.jsx";
 import CssExercisePage from "./CSS Page/CssExercisePage.jsx";
+import JqueryPage from "./ComponentPage/JqueryPage.jsx";
+import ReactPage from "./ComponentPage/ReactPage.jsx";
+import NextPage from "./ComponentPage/NextPage.jsx";
+import CPage from "./ComponentPage/CPage.jsx";
+import CplusPage from "./ComponentPage/CplusPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -31,7 +35,6 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/content" element={<AboutContent />} />
-        <Route path="/us" element={<ContactUs />} />
         <Route path="/HTML" element={<HTMLPage />} />
         <Route path="/CSS" element={<CSSPage />} />
         <Route path="/js" element={<JAVASCRIPTPage />} />
@@ -52,6 +55,11 @@ createRoot(document.getElementById("root")).render(
         <Route path="/organize" element={<OrganizeTextPage />} />
         <Route path="/formcss" element={<FormCssPage />} />
         <Route path="/excss" element={<CssExercisePage />} />
+        <Route path="/jq" element={<JqueryPage />} />
+        <Route path="/react" element={<ReactPage />} />
+        <Route path="/next" element={<NextPage />} />
+        <Route path="/c" element={<CPage />} />
+        <Route path="/cplus" element={<CplusPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

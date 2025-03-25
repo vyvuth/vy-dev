@@ -25,12 +25,6 @@ function EmbedPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
@@ -134,7 +128,7 @@ function EmbedPage() {
           </div>
         </div>
         {/* Selector ID */}
-        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
           <p className=" hanuman capitalize py-2 pl-2 text-2xl">
             <span className=" text-rose-700 font-semibold">
               selector ID style
@@ -156,7 +150,7 @@ function EmbedPage() {
           </div>
         </div>
         {/* Selector CLASS */}
-        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
           <p className=" hanuman capitalize py-2 pl-2 text-2xl">
             <span className=" text-rose-700 font-semibold">
               Selector With Class

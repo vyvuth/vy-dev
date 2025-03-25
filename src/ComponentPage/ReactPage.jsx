@@ -4,7 +4,7 @@ import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function JAVASCRIPTPage() {
+function ReactPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -45,4 +45,4 @@ function JAVASCRIPTPage() {
   );
 }
 
-export default JAVASCRIPTPage;
+export default ReactPage;

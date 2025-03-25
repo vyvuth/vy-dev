@@ -25,12 +25,6 @@ function FormCssPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
@@ -115,7 +109,7 @@ function FormCssPage() {
                   alt="404"
                 />
                 <img
-                  className=" w-full h-[577px] object-cover rounded"
+                  className=" w-full lg:h-[577px] md:h-[385px] h-[258px] object-cover rounded"
                   src="h1.png"
                   alt="404"
                 />
@@ -124,9 +118,9 @@ function FormCssPage() {
           </div>
         </div>
         {/* MENU css */}
-        <div className=" lg:w-full md:w-[59%] w-full h-full p-[15px]">
+        <div className=" lg:w-full md:w-full w-full h-full p-[15px]">
           <h1 className=" hanuman capitalize text-xl text-center font-serif py-2">
-            ការបង្កើត Menu ក្នុង CSs
+            ការបង្កើត Menu ក្នុង CSS
           </h1>
           <p className=" hanuman capitalize py-2 pl-2">
             <span className=" text-rose-700 font-semibold">Menu</span> {""}

@@ -4,9 +4,9 @@ import "../App.css";
 import ButtomBar from "../ButtomBar/ButtomBar";
 import CreditPage from "../Credit/CreditPage";
 import FooterPage from "../Footer/FooterPage";
-function JAVASCRIPTPage() {
+function CplusPage() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window, scrollTo(0, 0);
   }, []);
   return (
     <>
@@ -45,4 +45,4 @@ function JAVASCRIPTPage() {
   );
 }
 
-export default JAVASCRIPTPage;
+export default CplusPage;

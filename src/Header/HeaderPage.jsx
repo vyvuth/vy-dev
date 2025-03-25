@@ -27,12 +27,6 @@ function HeaderPage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className="lg:flex lg:justify-center lg:p-4 lg:my-6 lg:mt-32">

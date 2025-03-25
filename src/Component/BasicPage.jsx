@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 function BasicPage() {
   useEffect(() => {
     AOS.init({
@@ -40,7 +41,13 @@ function BasicPage() {
                 Here are some key uses of C.
               </p>
               <p className=" mt-3 capitalize font-serif font-semibold text-orange-600 ">
-                free course
+                free course -{" "}
+                <Link
+                  to="/c"
+                  className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+                >
+                  Start your learning
+                </Link>
               </p>
               <span className=" font-serif text-sm text-red-600 font-bold underline">
                 Alumni &copy;ETEC CENTER
@@ -65,7 +72,13 @@ function BasicPage() {
                 for a variety of applications.
               </p>
               <p className=" mt-3 capitalize font-serif font-semibold text-orange-600 ">
-                free course
+                free course -{" "}
+                <Link
+                  to="/cplus"
+                  className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+                >
+                  Start your learning
+                </Link>
               </p>
               <span className=" font-serif text-sm text-red-600 font-bold underline">
                 Alumni &copy;ETEC CENTER

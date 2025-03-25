@@ -25,12 +25,6 @@ function CssExercisePage() {
             >
               About Content
             </Link>
-            <Link
-              to="us"
-              className="hover:text-blue-700 hover:underline transition-all duration-200 animate-pulse"
-            >
-              Contact Us
-            </Link>
           </ul>
         </nav>
         <div className=" lg:flex lg:justify-between lg:p-0 md:p-0 p-[20px] md:flex md:justify-between ">
@@ -100,7 +94,7 @@ function CssExercisePage() {
           </div>
           <div className=" lg:w-[59%] md:w-[59%] w-full h-full p-[15px]">
             {/* ex1 */}
-            <div className=" hanuman pl-20 text-3xl my-[20px] capitalize">
+            <div className=" hanuman lg:pl-20 lg:text-3xl md:text-3xl lg:my-[20px] md:my-[20px] capitalize">
               <p className=" my-2 ">លំហាត់ទី១:</p>
               <p className=" my-2 pl-6">
                 * ចូរសរសេរកូដបង្កើតនូវ horizon menu with HTML & CSS។
@@ -116,7 +110,7 @@ function CssExercisePage() {
         </div>
         <div className=" w-full h-full p-5">
           {/* ex2 */}
-          <div className=" hanuman pl-20 text-3xl capitalize my-7">
+          <div className=" hanuman lg:pl-20 text-3xl capitalize my-7">
             <p className=" my-2 ">លំហាត់ទី២:</p>
             <div className=" w-full h-full">
               <img

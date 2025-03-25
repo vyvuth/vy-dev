@@ -147,7 +147,13 @@ function ApplicationUI() {
             </p>
             <hr />
             <p className=" mt-2 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+              free course -{" "}
+              <Link
+                to="/jq"
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER
@@ -175,7 +181,13 @@ function ApplicationUI() {
             </p>
             <hr />
             <p className=" mt-2 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+              free course -{" "}
+              <Link
+                to="/react"
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER
@@ -204,7 +216,13 @@ function ApplicationUI() {
             </p>
             <hr />
             <p className=" mt-2 capitalize font-serif font-semibold text-orange-400 ">
-              free course
+              free course -{" "}
+              <Link
+                to="/next "
+                className="ml-3 text-blue-600 underline hover:text-blue-800 transition-all"
+              >
+                Start your learning
+              </Link>
             </p>
             <span className=" font-serif text-sm text-red-600 font-bold underline">
               Alumni &copy;ETEC CENTER
